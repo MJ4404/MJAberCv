@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link crossorigin="anonymous" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+
+>
+
+
+  <link href="timeline.css" rel="stylesheet">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1 style="padding: 50px;"><span>M</span>ohammad <span>M</span>.Jaber</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1 >Welcome <span></span></h1>
+        <h1>On My Protfile <span></span></h1>
+        <h1>M.Jaber <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title" style="	padding: 30px;" >Serv<span>i</span>ces</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas
+          magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias
+          voluptatum explicabo!</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" /></div>
+          <h2>Git Hup</h2>
+          <p>It works by dealing with Git hup from several aspects such as making a repo and dealing with it through tools push,put,comment
+             in addition to using it as a host for pages such as the privacy policy </p>
+
+        <!-- firebase -->
+          </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://limziyang.com/static/media/firebase.d139ba1e.png" /></div>
+          <h2>FireBase</h2>
+          <p>I Have Made There Applection With Firebase Useing FirBase auth,Realtime,Push Notfication ,Login By Google ,Otp Phone Varfiction</p>
+        </div>
+
+        <!-- One Signal -->
+        <div class="service-item">
+          <div class="icon"><img src="https://toppng.com/uploads/preview/onesignal-logo-11609370885piaqercx8t.png" /></div>
+          <h2>One Signal</h2>
+          <p>I have used One Single in most of my applications that I have seen by sending notifications in more than one form and dealing with them well</p>
+        </div>
+
+
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,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" /></div>
+          <h2>Pay Fort</h2>
+          <p>Dealing with the electronic payment environment through mobile applications is one of the things that must be dealt with accurately</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/png;base64,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" /></div>
+          <h2>Design Pattrens in Swift </h2>
+          <p>The design pattern is one of the most important terms for dealing with data in programming, for me, the easiest and fastest way was a MVC , but I had to dealenig with anthor techince which is MVVM And I can work On Both </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://files.betamax.raywenderlich.com/attachments/collections/148/a1bc8472-94e2-415e-9761-cf9711fd1e1a.png" /></div>
+          <h2>Core Data</h2>
+          <p>I have Made App With Native Core Data in Swift  Using CRUD With DB I Create  and Sync data with Server also I have good knowledge of offline storage framework like Realm</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://thumbs.dreamstime.com/b/back-end-linear-icon-modern-outline-back-end-logo-concept-wh-back-end-linear-icon-modern-outline-back-end-logo-concept-white-133526061.jpg" /></div>
+          <!-- · Familiarity with JSON, REST-based APIs, XML, JavaScript, and interfacing  -->
+          <h2>Applications To Server-Side</h2>
+ <p>
+  Proficient in dealing with the back-end side through the API, I dealt with a lot of them, which comes with comes withd difrrant level
+  ,I use  more tehn one  framework for dealing with the back-end side, such as
+  Aamofire which is a Therid Part and Netive   such as the Url Session, 
+  some times i need to  addition  tools such as dealing with UI according to the return response from APi
+ </p>
+        </div>
+
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <!-- <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+    <!-- TIMELINE SECTION -->
+
+
+    <section class="section-primary" id="timelinesection">
+      <div class="containera" style="text-align:center;" >
+          <div class="row">
+              <div class="col-md-12 section-heading">
+                  <h2 style="color: #1abc9c;"> My Career Path</h2>
+
+
+                  <p class="lead">Here Are A Info About My Career Path </p>
+
+                  <hr class="white">
+              </div>
+          </div>
+
+
+          <div class="row">
+              <div class="col-md-12">
+                  <!-- Timeline -->
+
+
+                  <div id="timeline">
+                      <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                      <div class="timeline-item">
+                          <!--Icon inside the circle-->
+
+
+                          <div class="timeline-icon">
+                              <i class="fa fa-star"></i>
+                          </div>
+                          <!-- Content from timeline box and position (right or left)-->
+
+
+                          <div class="timeline-content right">
+                              <h2>High School certificate</h2>
+
+
+                              <p>2016-2017 Horizon Abu Dhabi School of Science (Advanced) got a grade point average of 89.9, third in the class</p>
+                          </div>
+                      </div>
+                      <!-- /Timeline Item-->
+                      <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                      <div class="timeline-item">
+                          <!--Icon inside the circle-->
+
+
+                          <div class="timeline-icon">
+                              <i class="fa fa-cog"></i>
+                          </div>
+                          <!-- Content from timeline box and position (right or left)-->
+
+
+                          <div class="timeline-content left">
+                              <h2>University of Islamic Sciences
+                                  Software engineering major</h2>
+
+
+                              <p>I majored in software engineering at the University of Islamic Sciences. My teaching career started in 2017 until 2021</p>
+                          </div>
+                      </div>
+                      <!-- /Timeline Item-->
+                      <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                      <div class="timeline-item">
+                          <!--Icon inside the circle-->
+
+
+                          <div class="timeline-icon">
+                              <i class="fa fa-plane"></i>
+                          </div>
+                          <!-- Content from timeline box and position (right or left)-->
+
+
+                          <div class="timeline-content right">
+                              <h2>App Trainer</h2>
+
+
+                              <p>I trained within the App Trainer company, and I trained to become an Android phone application developer. The training period lasted four months, coinciding with my undergraduate studies from 10-2020 to 2-2021.</p>
+                          </div>
+                      </div>
+                      <!-- /Timeline Item-->
+                      <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                      <div class="timeline-item">
+                          <!--Icon inside the circle-->
+
+
+                          <div class="timeline-icon">
+                              <i class="fa fa-group"></i>
+                          </div>
+                          <!-- Content from timeline box and position (right or left)-->
+
+
+                          <div class="timeline-content left">
+                              <h2>I made my first account as an Android app developer </h2>
+                              <p>during my internship So far it contains 5 applications between small and medium
+
+                              </p>
+                          </div>
+                      </div>
+                      <!-- /Timeline Item-->
+                      <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                      <div class="timeline-item">
+                          <!--Icon inside the circle-->
+
+
+                          <div class="timeline-icon">
+                              <i class="fa fa-star"></i>
+                              
+                          </div>
+                          <!-- Content from timeline box and position (right or left)-->
+
+
+                          <div class="timeline-content right">
+                              <h2>QA Mobile Applection</h2>
+
+
+                              <p>My first job was to ensure the quality of applications for a startup company in the software sector.</p>
+                          </div>
+                      </div>
+
+                      <div class="timeline-item">
+                          <!--Icon inside the circle-->
+
+
+                          <div class="timeline-icon">
+                              <i class="fa fa-star"></i>
+                          </div>
+                          <!-- Content from timeline box and position (right or left)-->
+
+
+                          <div class="timeline-content left">
+                              <h2>Android Devloper </h2>
+
+
+                              <p>Then I moved to work as an Android application developer within Blue Beam Company as a solo developer. I dealt with many things such as delivery dates, working with the rest of the departments, my work as an Android application developer within the company lasted for more than three months, from 09-2021 to 12-2021.</p>
+                          </div>
+                      </div>
+                      
+                      <div class="timeline-item">
+                          <!--Icon inside the circle-->
+
+
+                          <div class="timeline-icon">
+                              <i class="fa fa-star"></i>
+                          </div>
+                          <!-- Content from timeline box and position (right or left)-->
+
+
+                          <div class="timeline-content left">
+                              <h2>Ios Devloper</h2>
+
+
+                              <p>Within the same company, I changed the job title to become a developer of mobile applications for the Ios  system as a solo developer also for a number of reasons, including the development of the Swift programming language. A number of developers are not familiar with the work of mobile applications Netive, however, I was still practicing Android application programming And I'm still at work until now </p>
+                          </div>
+                      </div>
+                      
+                      <!-- /Timeline Item-->
+                  </div>
+                  <!-- /col-md-12 -->
+              </div>
+              <!-- /row -->
+          </div>
+      </div> <!-- / container -->
+  </section>
+
+
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="https://scontent.famm9-1.fna.fbcdn.net/v/t1.6435-9/167549238_3053852738169703_1037600530749903675_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_ohc=ipNrDBoayjkAX-OLsB5&_nc_ht=scontent.famm9-1.fna&oh=00_AT8hS3J482RRhnyVKfjkxga2wf_YRJWOW__gy9ho2Lbx3w&oe=62FAB08C" alt="img">
+        </div> 
+
+      </div>
+      <div class="col-right">
+        <h1 class="section-title" style="	padding: 30px;">About <span>me</span></h1>
+        <h2>IOS DEVLOPER</h2>
+        <p>Experienced Mobile Developer adept in all stages of advanced Ios Platform
+          • Knowledgeable in user interface, testing, and debugging processes.
+          • Bringing forth expertise in design, installation, testing and maintenance of Mobile
+          • Equipped with a diverse and promising skill-set.
+          • Proficient in an assortment of technologies, Swift,xml ,html ,css • Able to effectively self-manage during independent projects, as well as collaborate in a team setting with perfect experience in tender projects
+          • Worked on projects of limited duration, high experience in the field of e-commerce applications and educational platforms, and the use of various SDK (software development kits)</p>
+        <a href="_CV-2.pdf" download = "_CV-2.pdf" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title" style="padding: 40px;">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+962 776772839</h2>
+            <h2>+962 776772839</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>f.mj620@gmail.com</h2>
+            <h2>f.mj620@icloud.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>AMMAN JORDAN</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>M</span>ohammad <span>M.</span>Jaber</h1>
+      </div>
+      <h2>Software Eng.</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/mohammed.gaber.16752/"><img src="https://cdn-icons-png.flaticon.com/512/174/174848.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/mohammed-jaber-a36b1a1b3/"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Mohammed M.Jaber</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
